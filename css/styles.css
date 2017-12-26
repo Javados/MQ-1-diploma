@@ -133,7 +133,7 @@ footer {
 
 @media (max-width: 640px) {
     header {
-        background-image: url(images/header_320.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/header_320.png);
     }
     
     .logo {
@@ -249,17 +249,17 @@ footer {
     }
     
     .blocks1 {
-        background-image: url(images/be_active_320.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/be_active_320.png);
         padding-bottom: 80px;
     }
     
     .blocks2 {
-        background-image: url(images/find_contact_320.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/find_contact_320.png);
         padding-bottom: 80px;
     }
     
     .blocks3 {
-        background-image: url(images/work_it_320.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/work_it_320.png);
         padding-bottom: 70px;
     }
     
@@ -292,7 +292,7 @@ footer {
     }
     
     footer {
-        background-image: url(images/footer_320.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/footer_320.png);
     }
     
     .footer_h1 {
@@ -318,7 +318,7 @@ footer {
 
 @media (min-width: 641px) and (max-width: 960px) {
     header {
-        background-image: url(images/header_768.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/header_768.png);
     }
     
     .logo {
@@ -463,17 +463,17 @@ footer {
     }
     
     .blocks1 {
-        background-image: url(images/be_active_768.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/be_active_768.png);
         padding-bottom: 93px;
     }
     
     .blocks2 {
-        background-image: url(images/find_contact_768.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/find_contact_768.png);
         padding-bottom: 93px;
     }
     
     .blocks3 {
-        background-image: url(images/work_it_768.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/work_it_768.png);
         padding-bottom: 93px;
     }
     
@@ -512,7 +512,7 @@ footer {
     }
     
     footer {
-        background-image: url(images/footer_768.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/footer_768.png);
     }
     
     .footer_h1 {
@@ -544,7 +544,7 @@ footer {
 
 @media (min-width: 961px) and (max-width: 1920px) {
     header {
-        background-image: url(images/header_1920.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/header_1920.png);
     }
     
     .logo {
@@ -710,20 +710,20 @@ footer {
     }
     
     .blocks1 {
-        background-image: url(images/be_active_1920.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/be_active_1920.png);
         padding: 212px 0 200px 45vw;
         flex-direction: row;
     }
     
     .blocks2 {
-        background-image: url(images/find_contact_1920.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/find_contact_1920.png);
         flex-direction: row-reverse;
         margin-left: 960px;
         /*padding: 200px 45vw 212px 0;*/
     }
     
     .blocks3 {
-        background-image: url(images/work_it_1920.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/work_it_1920.png);
         padding-right: 960px;
     }
     
@@ -770,7 +770,7 @@ footer {
     }
     
     footer {
-        background-image: url(images/footer_1920.png);
+        background-image: url(https://github.com/alisapo/MQ-1-diploma/blob/master/images/footer_1920.png);
     }
     
     .footer_h1 {
