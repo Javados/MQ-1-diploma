@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 87.5%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    position: relative;
+    background-color: #080a36;
+    cursor: default;
+}
+
+.logo, .appstore_svg, .googleplay_svg, .logo_footer_svg, .logo_footer_down_svg {
+    fill: #ffffff;
+}
+
+.name_group_header, .name_group_footer {
+    text-align: center;
+}
+
+.header1, .header2 {
+    font-family: 'open_sansbold';
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.appstore, .googleplay {
+    display: flex;
+    justify-content: center;
+    background-color: #5e42b0;
+}
+
+.appstore_text, .googleplay_text {
+    font-family: 'open_sansregular';
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.app_text2, .google_text2 {
+    font-family: 'open_sansbold';
+}
+
+.athlets_header_section, .players_header_section {
+    font-family: 'open_sansbold';
+    text-transform: uppercase;
+    color: #e7e7e7;
+}
+
+.athlets_header_list, .players_header_list {
+    display: flex;
+}
+
+.athlets_number, .players_number {
+    font-family: "open_sansbold";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.athlets_number, .players_number {
+    text-align: center;
+}
+
+.actions_block1, .actions_block2, .actions_block3 {
+    background-color: #5e42b0;
+} 
+
+.actions_number1, .actions_number2, .actions_number3 {
+    font-family: "open_sansbold";
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 4px solid #8f7bc8;
+}
+
+.athlets_header, .players_header, .actions_header1, .actions_header2, .actions_header3 {
+    font-family: "open_sansbold";
+    color: rgb(193, 193, 193);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.232;
+    text-align: left;
+}
+
+.athlets_text, .players_text {
+    font-family: "open_sansregular";
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.athlets_list2, .players_list2 {
+    background-color: #f5f4f9;
+} 
+
+.athlets_list3 {
+    background-color: #5e42b0;
+}
+
+.players_list3 {
+    background-color: #090c35;
+}
+
+.blocks1, .blocks2, .blocks3 {
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #080a36;
+}
+
+.footer_h1 {
+    font-family: "open_sansbold";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer_h3 {
+    text-transform: uppercase;
+    color: #9b8ec1;
+    text-align: center;
+}
+
+.logo_footer_up {
+    background-color: #5e42b0;
+}
+
+@media (max-width: 640px) {
+    header {
+        background-image: url(images/header_320.png);
+    }
+    
+    .logo {
+        margin: 38px 0 116px 0; /* 97 and 88 */
+        width: 133px;
+        height: 36px;
+    }
+    
+    .header1 {
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .header2 {
+        margin-left: 66px;
+        margin-bottom: 67px;
+    }
+    
+    .appstore, .googleplay {
+        margin: 0 20px 15px 20px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .appstore_svg {
+        width: 22px;
+        height: 24px;
+    }
+    
+    .appstore_text, .googleplay_text {
+        font-size: 8px;
+    }
+    
+    .appstore_text {
+        padding-left: 20px;
+    }
+    
+    .googleplay_svg {
+        width: 22px;
+        height: 24px;
+        margin-right: 20px;
+    }
+    
+    .store_buttons {
+        padding-bottom: 67px;
+    }
+    
+    .athlets_header_section, .players_header_section {
+        font-size: 30px;
+        margin-top: 25px;
+        /*margin-bottom: 245px;*/
+        padding-left: 6.25%;
+    }
+    
+    .athlets_list1, .players_list1 {
+        background-color: #fafafa;
+    } 
+    
+    .athlets_list1, .athlets_list2, .athlets_list3, .players_list1, .players_list2, .players_list3, .blocks1, .blocks2, .blocks3 {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }
+    
+    .athlets_number, .players_number, .actions_block1, .actions_block2, .actions_block3 {
+        font-size: 14px;
+    }
+    
+    .athlets_header, .players_header, .actions_header1, .actions_header2, .actions_header3 {
+        font-size: 28px;
+    }
+    
+    .athlets_text, .players_text, .actions_text1, .actions_text2, .actions_text3 {
+       padding-top: 30px; 
+    }
+    
+    .athlets_header, .players_header {
+        padding-left: 10px;
+    }
+    
+    .athlets_text, .players_text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .athlets_list1 {
+        padding-top: 80px;
+        padding-bottom: 52px;
+    }
+    
+    .athlets_list2 {
+        padding-top: 56px;
+        padding-bottom: 52px;
+    }
+    
+    .athlets_list3 {
+        padding-top: 57px;
+        padding-bottom:36px;
+    }
+    
+    .players_list1 {
+        padding-top: 80px;
+        padding-bottom: 54px;
+    }
+    
+    .players_list2 {
+        padding-top: 56px;
+        padding-bottom: 55px;
+    }
+    
+    .players_list3 {
+        padding-top: 54px;
+        padding-bottom:56px;
+    }
+    
+    .blocks1 {
+        background-image: url(images/be_active_320.png);
+        padding-bottom: 80px;
+    }
+    
+    .blocks2 {
+        background-image: url(images/find_contact_320.png);
+        padding-bottom: 80px;
+    }
+    
+    .blocks3 {
+        background-image: url(images/work_it_320.png);
+        padding-bottom: 70px;
+    }
+    
+    .actions_block1, .actions_block2, .actions_block3 {
+        width: 70px;
+        padding: 26px;
+    }
+    
+    .actions_number_block1, .actions_number_block2, .actions_number_block3 {
+        padding-top: 292px;
+        padding-bottom: 22px;
+    }
+    
+    .logo_group {
+        padding-top: 99px;
+    }
+    
+    .logo_footer_svg {
+        width: 58px;
+        height: 48px;
+        display: flex;
+    }
+    
+    .logo_footer_up {
+        padding: 14px 9px 14px 9px;
+        border-radius: 10px;
+        width: 82px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer {
+        background-image: url(images/footer_320.png);
+    }
+    
+    .footer_h1 {
+        font-size: 32px;
+        padding-top: 60px;
+    }
+    
+    .footer_h3 {
+        font-size: 15px;
+        padding-bottom: 77px;
+    }
+    
+    .name_group_footer {
+        margin-top: 70px;
+    }
+    
+    .logo_footer_down_svg {
+        width: 133px;
+        height: 36px;
+    }
+
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    header {
+        background-image: url(images/header_768.png);
+    }
+    
+    .logo {
+        margin: 38px 0 157px 0; /* 181*/
+        width: 205px;
+        height: 56px;
+    }
+    
+    .header1 {
+        margin-left: 91px;
+        /*padding-bottom: 31px;*/
+        font-size: 2.285714rem;
+    }
+    
+    .header2 {
+        margin-left: 197px;
+        margin-bottom: 312px;
+        font-size: 2.285714rem;
+        line-height: 1.15;
+    }
+    
+    .appstore, .googleplay {
+        margin: 0 20px 15px 20px;
+        border-radius: 50px;
+        width: 310px;
+        padding: 18px 0 18px 0;
+    }
+    
+    .appstore_svg {
+        width: 36px;
+        height: 42px;
+    }
+    
+    .appstore_text, .googleplay_text {
+        font-size: 14px;
+    }
+    
+    .appstore_text {
+        padding-left: 20px;
+    }
+    
+    .googleplay_svg {
+        width: 41px;
+        height: 45px;
+        margin-right: 20px;
+    }
+    
+    .store_buttons {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    
+    .athlets_header_section {
+        font-size: 3.80952rem;
+        padding-left: 291px;
+        margin-top: 42px;
+    }
+    
+    .players_header_section {
+        font-size: 3.80952rem;
+        margin-top: 40px;
+        padding-left: 33px;
+    }
+    
+    .athlets_list1, .athlets_list2, .athlets_list3 {
+        padding-left: 291px;
+        padding-right: 33px;
+    }
+    
+    .players_list1, .players_list2, .players_list3 {
+        padding-left: 33px;
+        padding-right: 307px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .athlets_number, .players_number {
+        font-size: 18px;
+    }
+    
+    .athlets_header, .players_header {
+        font-size: 32px;
+    }
+    
+    .athlets_text {
+        padding-top: 17px;
+        line-height: 1.75;        
+    }
+    
+    .players_text {
+        padding-top: 17px;
+        line-height: 1.75;
+    }
+    
+    .athlets_header, .players_header {
+        padding-left: 10px;
+    }
+    
+    .athlets_text, .players_text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .athlets_list1 {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .athlets_list2 {
+        padding-top: 36px;
+        padding-bottom: 32px;
+    }
+    
+    .athlets_list3 {
+        padding-top: 35px;
+        padding-bottom: 58px;
+    }
+    
+    .players_list1 {
+        padding-top: 28px;
+        padding-bottom: 43px;
+    }
+    
+    .players_list2 {
+        padding-top: 56px;
+        padding-bottom: 65px;
+    }
+    
+    .players_list3 {
+        padding-top: 47px;
+        padding-bottom: 76px;
+    }
+    
+    .actions_header1, .actions_header2, .actions_header3 {
+        font-size: 4.7rem;
+    }
+    
+    .actions_text1, .actions_text2, .actions_text3 {
+        font-size: 26px;
+        padding-top: 15px;
+    }
+    
+    .blocks1 {
+        background-image: url(images/be_active_768.png);
+        padding-bottom: 93px;
+    }
+    
+    .blocks2 {
+        background-image: url(images/find_contact_768.png);
+        padding-bottom: 93px;
+    }
+    
+    .blocks3 {
+        background-image: url(images/work_it_768.png);
+        padding-bottom: 93px;
+    }
+    
+    .text_block1, .text_block2, .text_block3 {
+        padding-left: 33px;
+    }
+    
+    .actions_block1, .actions_block2, .actions_block3 {
+        font-size: 24px;
+        width: 116px;
+        padding: 38px;
+    }
+    
+    .actions_number_block1, .actions_number_block2, .actions_number_block3 {
+        padding-top: 500px;
+        padding-bottom: 36px;
+        padding-left: 33px;
+    }
+    
+    .logo_group {
+        padding-top: 120px;
+    }
+    
+    .logo_footer_svg {
+        width: 102px;
+        height: 87px;
+        display: flex;
+    }
+    
+    .logo_footer_up {
+        padding: 25px 14px 25px 14px;
+        border-radius: 40px;
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer {
+        background-image: url(images/footer_768.png);
+    }
+    
+    .footer_h1 {
+        font-size: 5.71428rem;
+        padding-top: 50px;
+    }
+    
+    .footer_h3 {
+        font-size: 36px;
+        padding-bottom: 77px;
+    }
+    
+    .store_buttons_footer {
+        display: flex;
+        padding-top: 195px;
+    }
+    
+    .name_group_footer {
+        margin-top: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .logo_footer_down_svg {
+        width: 205px;
+        height: 56px;
+    }
+
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+    header {
+        background-image: url(images/header_1920.png);
+    }
+    
+    .logo {
+        margin: 45px 0 300px 0;
+        width: 191px;
+        height: 52px;
+    }
+    
+    .header1 {
+        margin-left: 141px;
+        font-size: 3.5rem;
+        line-height: 0.3;
+    }
+    
+    .header2 {
+        margin-left: 645px;
+        margin-bottom: 193px;
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    
+    .appstore, .googleplay {
+        margin: 0 30px 15px 20px;
+        border-radius: 50px;
+        width: 310px;
+        padding: 12px 0 15px 0;
+    }
+    
+    .appstore_svg {
+        width: 40px;
+        height: 50px;
+    }
+    
+    .appstore_text {
+        font-size: 14px;
+        padding-left: 29px;
+        padding-top: 8px;
+    }
+    
+    .googleplay_text {
+        font-size: 14px;
+        padding-left: 16px;
+        padding-top: 8px;
+    }
+    
+    .googleplay_svg {
+        width: 42px;
+        height: 48px;
+        margin-right: 20px;
+    }
+    
+    .store_buttons {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 95px;
+    }
+    
+    .athlets_header_section {
+        font-size: 3.80952rem;
+        padding-left: 1006px;
+        margin-top: 72px;
+    }
+    
+    .athlets_list1, .athlets_list2, .athlets_list3 {
+        padding-left: 1006px;
+        padding-right: 206px;
+    }
+    
+    .athlets_number {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    
+    .athlets_header {
+        font-size: 32px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    
+    .players_header {
+        font-size: 32px;
+        padding-left: 10px;
+    }
+    
+    .players_number {
+        font-size: 18px;
+    }
+    
+    .athlets_text {
+        padding-top: 17px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .athlets_list1 {
+        padding-top: 30px;
+        padding-bottom: 55px;
+    }
+    
+    .athlets_list2 {
+        padding-top: 36px;
+        padding-bottom: 62px;
+    }
+    
+    .athlets_list3 {
+        padding-top: 55px;
+        padding-bottom: 102px;
+    }
+    
+    .players_header_section {
+        font-size: 3.80952rem;
+        margin-top: 72px;
+        padding-left: 310px;
+    }
+    
+    .players_header_list1, .players_header_list2, .players_header_list3 {
+        display: flex; 
+    }
+    
+    .players_text {
+        padding-top: 19px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .players_list1, .players_list2, .players_list3 {
+        padding-left: 317px;
+        padding-right: 998px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .players_list1 {
+        padding-top: 58px;
+        padding-bottom: 73px;
+    }
+    
+    .players_list2 {
+        padding-top: 56px;
+        padding-bottom: 80px;
+    }
+    
+    .players_list3 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    
+    .actions_header1, .actions_header3 {
+        font-size: 4.7rem;
+        padding-bottom: 80px;
+    }
+    
+    .actions_header2 {
+        font-size: 4.7rem;
+        padding-bottom: 50px;
+    }
+    
+    .actions_text1 {
+        font-size: 24px;
+        padding-top: 15px;
+        padding-right: 530px;
+    }
+    
+    .actions_text3 {
+        font-size: 24px;
+        /*padding-top: 15px;
+        padding-right: 530px;*/
+    }
+    
+    .actions_text2 {
+        font-size: 24px;
+        padding-right: 300px;
+    }
+    
+    .blocks1 {
+        background-image: url(images/be_active_1920.png);
+        padding: 212px 0 200px 45vw;
+        flex-direction: row;
+    }
+    
+    .blocks2 {
+        background-image: url(images/find_contact_1920.png);
+        flex-direction: row-reverse;
+        background-position: right;
+        padding: 215px 46vw 275px 193px;
+    }
+    
+    .blocks3 {
+        background-image: url(images/work_it_1920.png);
+        padding: 212px 0 215px 46vw;
+    }
+    
+    .text_block1 {
+        padding: 31px 0 0 45px;
+    }
+    
+    .text_block3 {
+        padding: 31px 300px 0 45px;
+    }
+    
+    .text_block2 {
+        padding: 31px 0 0 0;
+    }
+    
+    .blocks1, .blocks2, .blocks3 {
+        display: flex;
+    }
+    
+    .actions_block1, .actions_block2, .actions_block3 { /*циферка*/
+        font-size: 24px;
+        width: 168px;
+        padding: 62px 72px 62px 72px;
+    }
+    
+    .actions_number_block1, .actions_number_block2, .actions_number_block3 {
+        /*padding-top: 500px;
+        padding-bottom: 36px;
+        padding-left: 33px;*/
+    }
+    
+    .logo_group {
+        padding-top: 120px;
+    }
+    
+    .logo_footer_svg {
+        width: 102px;
+        height: 87px;
+        display: flex;
+    }
+    
+    .logo_footer_up {
+        padding: 25px 14px 25px 14px;
+        border-radius: 40px;
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer {
+        background-image: url(images/footer_1920.png);
+    }
+    
+    .footer_h1 {
+        font-size: 5.71428rem;
+        padding-top: 50px;
+    }
+    
+    .footer_h3 {
+        font-size: 36px;
+        padding-bottom: 77px;
+    }
+    
+    .store_buttons_footer {
+        display: flex;
+        padding-top: 195px;
+    }
+    
+    .name_group_footer {
+        margin-top: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .logo_footer_down_svg {
+        width: 205px;
+        height: 56px;
+    }
+
+}
+
+
