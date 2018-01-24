@@ -511,7 +511,6 @@ footer {
     
     .athlets_img {
         top: 90px;
-        width: 29.17vw;
     }
     
     .players_img {
@@ -560,7 +559,7 @@ footer {
     }
     
     .athlets_header, .players_header, .players_header2, .players_header1 {
-        padding-left: 10px; /*не знаю*/
+        padding-left: 10px;
     }
     
     .athlets_text1, .athlets_text2, .athlets_text3, .players_text1, .players_text2, .players_text3 {
