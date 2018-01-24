@@ -21,7 +21,7 @@ header {
 
 .button_appstr_h, .button_google_h, .button_appstr_f, .button_google_f {
         display: flex;
-        justify-content: center;
+        align-items: center;
     }
 
 .appstore_svg, .googleplay_svg, .logo_header, .logo_footer_down {
